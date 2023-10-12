@@ -1,0 +1,26 @@
+@import '../commons/colors.scss';
+
+.accordion {
+    width: 100%;
+    background-color: white;
+}
+
+.accordion .card {
+    background-color: initial!important;    
+    border: none;
+    color:$primary;
+}
+
+.accordion .card-header {
+    border-bottom: 3px solid $primary;
+    padding: 0.75em 1.25em 0.75em 0;
+    margin-left: 1.25em;
+    line-height: 1;
+    width: 100%;
+}
+
+.accordion .card-body {
+    color: black;
+    padding: 0.75em 1.25em 0.75em 0;
+    margin-left: 1.25em;
+}

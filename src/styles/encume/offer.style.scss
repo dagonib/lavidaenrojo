@@ -1,0 +1,32 @@
+@import '../commons/colors.scss';
+
+.offer {
+    background-color: $grey-dark;
+}
+
+.offer-text {
+    font-size: 0.8rem!important;
+    color: rgb(201, 201, 201);
+
+    @media only screen and (min-width: 992px) {
+        font-size: 1.1rem!important;
+    }
+}
+
+.offer-quote {
+    line-height: 1.2!important;
+    text-align: center;
+    
+    @media only screen and (min-width: 1200px) {
+        line-height: 1.2!important;
+    }
+}
+
+.offer-text-small {
+    color: rgb(201, 201, 201);
+    font-size: 0.7rem!important;
+
+    @media only screen and (min-width: 992px) {
+        font-size: 0.9rem!important;
+    }
+}
